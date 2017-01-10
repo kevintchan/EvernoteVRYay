@@ -1,14 +1,29 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{2AFC9E9D-F81D-9207-2F93-36EC57B618AC}") = "EvernoteVRYay", "Assembly-CSharp.csproj", "{42BE003E-88A5-CB8C-78F8-71EAEFF0F42A}"
+EndProject
+Project("{2AFC9E9D-F81D-9207-2F93-36EC57B618AC}") = "EvernoteVRYay", "Assembly-CSharp-Editor.csproj", "{803A57C6-BB3E-8B91-E48E-821688461AC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42BE003E-88A5-CB8C-78F8-71EAEFF0F42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42BE003E-88A5-CB8C-78F8-71EAEFF0F42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42BE003E-88A5-CB8C-78F8-71EAEFF0F42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42BE003E-88A5-CB8C-78F8-71EAEFF0F42A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{803A57C6-BB3E-8B91-E48E-821688461AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803A57C6-BB3E-8B91-E48E-821688461AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803A57C6-BB3E-8B91-E48E-821688461AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803A57C6-BB3E-8B91-E48E-821688461AC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
